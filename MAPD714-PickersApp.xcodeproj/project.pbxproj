@@ -13,6 +13,7 @@
 		77B6D8151F8ED69400F6BE4B /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 77B6D8141F8ED69400F6BE4B /* Assets.xcassets */; };
 		77B6D8181F8ED69400F6BE4B /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 77B6D8161F8ED69400F6BE4B /* LaunchScreen.storyboard */; };
 		77B6D8201F8ED95400F6BE4B /* DatePickerViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 77B6D81F1F8ED95400F6BE4B /* DatePickerViewController.swift */; };
+		77B6D8221F8ED9D600F6BE4B /* SingleComponentPickerViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 77B6D8211F8ED9D600F6BE4B /* SingleComponentPickerViewController.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -24,6 +25,7 @@
 		77B6D8171F8ED69400F6BE4B /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		77B6D8191F8ED69400F6BE4B /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		77B6D81F1F8ED95400F6BE4B /* DatePickerViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DatePickerViewController.swift; sourceTree = "<group>"; };
+		77B6D8211F8ED9D600F6BE4B /* SingleComponentPickerViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SingleComponentPickerViewController.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -63,6 +65,7 @@
 				77B6D8161F8ED69400F6BE4B /* LaunchScreen.storyboard */,
 				77B6D8191F8ED69400F6BE4B /* Info.plist */,
 				77B6D81F1F8ED95400F6BE4B /* DatePickerViewController.swift */,
+				77B6D8211F8ED9D600F6BE4B /* SingleComponentPickerViewController.swift */,
 			);
 			path = "MAPD714-PickersApp";
 			sourceTree = "<group>";
@@ -141,6 +144,7 @@
 			files = (
 				77B6D8101F8ED69400F6BE4B /* ViewController.swift in Sources */,
 				77B6D80E1F8ED69400F6BE4B /* AppDelegate.swift in Sources */,
+				77B6D8221F8ED9D600F6BE4B /* SingleComponentPickerViewController.swift in Sources */,
 				77B6D8201F8ED95400F6BE4B /* DatePickerViewController.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
