@@ -9,81 +9,81 @@
         <capability name="documents saved in the Xcode 8 format" minToolsVersion="8.0"/>
     </dependencies>
     <scenes>
-        <!--Item 2-->
+        <!--Single-->
         <scene sceneID="SRv-K2-Y50">
             <objects>
-                <viewController id="OkX-S2-sgY" sceneMemberID="viewController">
+                <viewController id="OkX-S2-sgY" customClass="SingleComponentPickerViewController" customModule="MAPD714_PickersApp" customModuleProvider="target" sceneMemberID="viewController">
                     <view key="view" contentMode="scaleToFill" id="MKB-pV-iX8">
                         <rect key="frame" x="0.0" y="0.0" width="375" height="667"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
                         <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
                         <viewLayoutGuide key="safeArea" id="qee-pb-hOe"/>
                     </view>
-                    <tabBarItem key="tabBarItem" title="Item 2" id="j49-Jh-eZP"/>
+                    <tabBarItem key="tabBarItem" title="Single" id="j49-Jh-eZP"/>
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="H46-gn-J33" userLabel="First Responder" sceneMemberID="firstResponder"/>
             </objects>
             <point key="canvasLocation" x="1145" y="520"/>
         </scene>
-        <!--Item-->
+        <!--Double-->
         <scene sceneID="Lcs-Si-hKG">
             <objects>
-                <viewController id="h1D-pe-JIC" sceneMemberID="viewController">
+                <viewController id="h1D-pe-JIC" customClass="DoubleComponentPickerViewController" customModule="MAPD714_PickersApp" customModuleProvider="target" sceneMemberID="viewController">
                     <view key="view" contentMode="scaleToFill" id="Xr4-SD-Xmg">
                         <rect key="frame" x="0.0" y="0.0" width="375" height="667"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
                         <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
                         <viewLayoutGuide key="safeArea" id="el6-iz-T5B"/>
                     </view>
-                    <tabBarItem key="tabBarItem" title="Item" id="hrA-C5-Nwz"/>
+                    <tabBarItem key="tabBarItem" title="Double" id="hrA-C5-Nwz"/>
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="8Du-2P-IwN" userLabel="First Responder" sceneMemberID="firstResponder"/>
             </objects>
             <point key="canvasLocation" x="-758" y="1063"/>
         </scene>
-        <!--Item-->
+        <!--Dependent-->
         <scene sceneID="hJv-PA-g6k">
             <objects>
-                <viewController id="HJd-xA-z1y" sceneMemberID="viewController">
+                <viewController id="HJd-xA-z1y" customClass="DependentComponentViewController" customModule="MAPD714_PickersApp" customModuleProvider="target" sceneMemberID="viewController">
                     <view key="view" contentMode="scaleToFill" id="3fU-p3-hI8">
                         <rect key="frame" x="0.0" y="0.0" width="375" height="667"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
                         <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
                         <viewLayoutGuide key="safeArea" id="jKO-QX-8oX"/>
                     </view>
-                    <tabBarItem key="tabBarItem" title="Item" id="sbT-wJ-8nl"/>
+                    <tabBarItem key="tabBarItem" title="Dependent" id="sbT-wJ-8nl"/>
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="Jdz-Az-Sll" userLabel="First Responder" sceneMemberID="firstResponder"/>
             </objects>
             <point key="canvasLocation" x="-124" y="1063"/>
         </scene>
-        <!--Item-->
+        <!--Custom-->
         <scene sceneID="X4R-qH-weH">
             <objects>
-                <viewController id="zc1-SZ-Gjb" sceneMemberID="viewController">
+                <viewController id="zc1-SZ-Gjb" customClass="CustomPickerViewController" customModule="MAPD714_PickersApp" customModuleProvider="target" sceneMemberID="viewController">
                     <view key="view" contentMode="scaleToFill" id="GNN-3a-r2K">
                         <rect key="frame" x="0.0" y="0.0" width="375" height="667"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
                         <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
                         <viewLayoutGuide key="safeArea" id="sgf-8E-Y2I"/>
                     </view>
-                    <tabBarItem key="tabBarItem" title="Item" id="xWW-Mm-u62"/>
+                    <tabBarItem key="tabBarItem" title="Custom" id="xWW-Mm-u62"/>
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="to0-2v-JAk" userLabel="First Responder" sceneMemberID="firstResponder"/>
             </objects>
             <point key="canvasLocation" x="510" y="1063"/>
         </scene>
-        <!--Item 1-->
+        <!--Date-->
         <scene sceneID="3ug-Kv-mtW">
             <objects>
-                <viewController id="gpm-dv-YUD" sceneMemberID="viewController">
+                <viewController id="gpm-dv-YUD" customClass="DatePickerViewController" customModule="MAPD714_PickersApp" customModuleProvider="target" sceneMemberID="viewController">
                     <view key="view" contentMode="scaleToFill" id="dkh-fj-XuN">
                         <rect key="frame" x="0.0" y="0.0" width="375" height="667"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
                         <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
                         <viewLayoutGuide key="safeArea" id="lFc-in-a0f"/>
                     </view>
-                    <tabBarItem key="tabBarItem" title="Item 1" id="Ar9-xl-l5l"/>
+                    <tabBarItem key="tabBarItem" title="Date" id="Ar9-xl-l5l"/>
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="7Mc-hc-WMk" userLabel="First Responder" sceneMemberID="firstResponder"/>
             </objects>

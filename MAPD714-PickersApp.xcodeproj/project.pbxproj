@@ -66,15 +66,15 @@
 			children = (
 				77B6D80D1F8ED69400F6BE4B /* AppDelegate.swift */,
 				77B6D80F1F8ED69400F6BE4B /* ViewController.swift */,
-				77B6D8111F8ED69400F6BE4B /* Main.storyboard */,
-				77B6D8141F8ED69400F6BE4B /* Assets.xcassets */,
-				77B6D8161F8ED69400F6BE4B /* LaunchScreen.storyboard */,
-				77B6D8191F8ED69400F6BE4B /* Info.plist */,
 				77B6D81F1F8ED95400F6BE4B /* DatePickerViewController.swift */,
 				77B6D8211F8ED9D600F6BE4B /* SingleComponentPickerViewController.swift */,
 				77B6D8231F8EDA1D00F6BE4B /* DoubleComponentPickerViewController.swift */,
 				77B6D8251F8EDA4B00F6BE4B /* DependentComponentViewController.swift */,
 				77B6D8271F8EDA7C00F6BE4B /* CustomPickerViewController.swift */,
+				77B6D8111F8ED69400F6BE4B /* Main.storyboard */,
+				77B6D8141F8ED69400F6BE4B /* Assets.xcassets */,
+				77B6D8161F8ED69400F6BE4B /* LaunchScreen.storyboard */,
+				77B6D8191F8ED69400F6BE4B /* Info.plist */,
 			);
 			path = "MAPD714-PickersApp";
 			sourceTree = "<group>";
