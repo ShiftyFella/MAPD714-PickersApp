@@ -19,7 +19,7 @@
                         <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
                         <viewLayoutGuide key="safeArea" id="qee-pb-hOe"/>
                     </view>
-                    <tabBarItem key="tabBarItem" title="Single" id="j49-Jh-eZP"/>
+                    <tabBarItem key="tabBarItem" title="Single" image="singleicon" id="j49-Jh-eZP"/>
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="H46-gn-J33" userLabel="First Responder" sceneMemberID="firstResponder"/>
             </objects>
@@ -35,7 +35,7 @@
                         <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
                         <viewLayoutGuide key="safeArea" id="el6-iz-T5B"/>
                     </view>
-                    <tabBarItem key="tabBarItem" title="Double" id="hrA-C5-Nwz"/>
+                    <tabBarItem key="tabBarItem" title="Double" image="doubleicon" id="hrA-C5-Nwz"/>
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="8Du-2P-IwN" userLabel="First Responder" sceneMemberID="firstResponder"/>
             </objects>
@@ -51,7 +51,7 @@
                         <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
                         <viewLayoutGuide key="safeArea" id="jKO-QX-8oX"/>
                     </view>
-                    <tabBarItem key="tabBarItem" title="Dependent" id="sbT-wJ-8nl"/>
+                    <tabBarItem key="tabBarItem" title="Dependent" image="dependenticon" id="sbT-wJ-8nl"/>
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="Jdz-Az-Sll" userLabel="First Responder" sceneMemberID="firstResponder"/>
             </objects>
@@ -67,7 +67,7 @@
                         <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
                         <viewLayoutGuide key="safeArea" id="sgf-8E-Y2I"/>
                     </view>
-                    <tabBarItem key="tabBarItem" title="Custom" id="xWW-Mm-u62"/>
+                    <tabBarItem key="tabBarItem" title="Custom" image="toolicon" id="xWW-Mm-u62"/>
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="to0-2v-JAk" userLabel="First Responder" sceneMemberID="firstResponder"/>
             </objects>
@@ -83,7 +83,7 @@
                         <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
                         <viewLayoutGuide key="safeArea" id="lFc-in-a0f"/>
                     </view>
-                    <tabBarItem key="tabBarItem" title="Date" id="Ar9-xl-l5l"/>
+                    <tabBarItem key="tabBarItem" title="Date" image="clockicon" id="Ar9-xl-l5l"/>
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="7Mc-hc-WMk" userLabel="First Responder" sceneMemberID="firstResponder"/>
             </objects>
@@ -111,4 +111,11 @@
             <point key="canvasLocation" x="-471" y="199"/>
         </scene>
     </scenes>
+    <resources>
+        <image name="clockicon" width="24" height="24"/>
+        <image name="dependenticon" width="25" height="24"/>
+        <image name="doubleicon" width="25" height="24"/>
+        <image name="singleicon" width="25" height="24"/>
+        <image name="toolicon" width="24" height="24"/>
+    </resources>
 </document>
