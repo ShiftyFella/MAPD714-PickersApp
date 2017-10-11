@@ -13,7 +13,9 @@ class DatePickerViewController: UIViewController {
     @IBOutlet weak var datePicker: UIDatePicker!
     override func viewDidLoad() {
         super.viewDidLoad()
-
+        
+        let date=NSDate()
+        datePicker.setDate(date as Date, animated: false)
         // Do any additional setup after loading the view.
     }
     @IBAction func onButtonPressed(_ sender: UIButton) {
