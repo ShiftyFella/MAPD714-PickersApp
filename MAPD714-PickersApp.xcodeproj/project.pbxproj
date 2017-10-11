@@ -15,6 +15,7 @@
 		77B6D8201F8ED95400F6BE4B /* DatePickerViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 77B6D81F1F8ED95400F6BE4B /* DatePickerViewController.swift */; };
 		77B6D8221F8ED9D600F6BE4B /* SingleComponentPickerViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 77B6D8211F8ED9D600F6BE4B /* SingleComponentPickerViewController.swift */; };
 		77B6D8241F8EDA1D00F6BE4B /* DoubleComponentPickerViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 77B6D8231F8EDA1D00F6BE4B /* DoubleComponentPickerViewController.swift */; };
+		77B6D8261F8EDA4B00F6BE4B /* DependentComponentViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 77B6D8251F8EDA4B00F6BE4B /* DependentComponentViewController.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -28,6 +29,7 @@
 		77B6D81F1F8ED95400F6BE4B /* DatePickerViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DatePickerViewController.swift; sourceTree = "<group>"; };
 		77B6D8211F8ED9D600F6BE4B /* SingleComponentPickerViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SingleComponentPickerViewController.swift; sourceTree = "<group>"; };
 		77B6D8231F8EDA1D00F6BE4B /* DoubleComponentPickerViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DoubleComponentPickerViewController.swift; sourceTree = "<group>"; };
+		77B6D8251F8EDA4B00F6BE4B /* DependentComponentViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DependentComponentViewController.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -69,6 +71,7 @@
 				77B6D81F1F8ED95400F6BE4B /* DatePickerViewController.swift */,
 				77B6D8211F8ED9D600F6BE4B /* SingleComponentPickerViewController.swift */,
 				77B6D8231F8EDA1D00F6BE4B /* DoubleComponentPickerViewController.swift */,
+				77B6D8251F8EDA4B00F6BE4B /* DependentComponentViewController.swift */,
 			);
 			path = "MAPD714-PickersApp";
 			sourceTree = "<group>";
@@ -149,6 +152,7 @@
 				77B6D80E1F8ED69400F6BE4B /* AppDelegate.swift in Sources */,
 				77B6D8241F8EDA1D00F6BE4B /* DoubleComponentPickerViewController.swift in Sources */,
 				77B6D8221F8ED9D600F6BE4B /* SingleComponentPickerViewController.swift in Sources */,
+				77B6D8261F8EDA4B00F6BE4B /* DependentComponentViewController.swift in Sources */,
 				77B6D8201F8ED95400F6BE4B /* DatePickerViewController.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
