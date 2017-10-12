@@ -34,6 +34,7 @@ class SingleComponentPickerViewController: UIViewController, UIPickerViewDelegat
     }
     
     //adhere with protocols
+    //data source
     func numberOfComponents(in pickerView: UIPickerView) -> Int {
         return 1
     }
@@ -41,7 +42,7 @@ class SingleComponentPickerViewController: UIViewController, UIPickerViewDelegat
     func pickerView(_ pickerView: UIPickerView, numberOfRowsInComponent component: Int) -> Int {
         return characterNames.count
     }
-    
+    //delegate
     func pickerView(_ pickerView: UIPickerView, titleForRow row: Int, forComponent component: Int) -> String? {
         return characterNames[row]
     }

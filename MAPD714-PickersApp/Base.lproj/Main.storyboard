@@ -67,10 +67,17 @@
                                 <constraints>
                                     <constraint firstAttribute="height" constant="162" id="S2l-Nr-lks"/>
                                 </constraints>
+                                <connections>
+                                    <outlet property="dataSource" destination="h1D-pe-JIC" id="Loc-8G-Eq3"/>
+                                    <outlet property="delegate" destination="h1D-pe-JIC" id="ofh-Y1-aDQ"/>
+                                </connections>
                             </pickerView>
                             <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="kDa-WF-Mld">
                                 <rect key="frame" x="164" y="318" width="46" height="30"/>
                                 <state key="normal" title="Button"/>
+                                <connections>
+                                    <action selector="onButtonPressed:" destination="h1D-pe-JIC" eventType="touchUpInside" id="2df-0V-PXC"/>
+                                </connections>
                             </button>
                         </subviews>
                         <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
@@ -84,6 +91,9 @@
                         <viewLayoutGuide key="safeArea" id="el6-iz-T5B"/>
                     </view>
                     <tabBarItem key="tabBarItem" title="Double" image="doubleicon" id="hrA-C5-Nwz"/>
+                    <connections>
+                        <outlet property="doublePicker" destination="abh-gj-Gjp" id="Udo-sE-6x7"/>
+                    </connections>
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="8Du-2P-IwN" userLabel="First Responder" sceneMemberID="firstResponder"/>
             </objects>
