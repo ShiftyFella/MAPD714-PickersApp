@@ -22,10 +22,17 @@
                                 <constraints>
                                     <constraint firstAttribute="height" constant="162" id="RTZ-6M-K0j"/>
                                 </constraints>
+                                <connections>
+                                    <outlet property="dataSource" destination="OkX-S2-sgY" id="9d5-Yw-2Pg"/>
+                                    <outlet property="delegate" destination="OkX-S2-sgY" id="ZyV-p0-MtO"/>
+                                </connections>
                             </pickerView>
                             <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="jq4-ur-eAO">
                                 <rect key="frame" x="164" y="318" width="46" height="30"/>
                                 <state key="normal" title="Button"/>
+                                <connections>
+                                    <action selector="onButtonPressed:" destination="OkX-S2-sgY" eventType="touchUpInside" id="eso-oF-GoD"/>
+                                </connections>
                             </button>
                         </subviews>
                         <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
@@ -39,6 +46,9 @@
                         <viewLayoutGuide key="safeArea" id="qee-pb-hOe"/>
                     </view>
                     <tabBarItem key="tabBarItem" title="Single" image="singleicon" id="j49-Jh-eZP"/>
+                    <connections>
+                        <outlet property="SinglePicker" destination="BOb-er-Ucw" id="yfb-gi-fi9"/>
+                    </connections>
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="H46-gn-J33" userLabel="First Responder" sceneMemberID="firstResponder"/>
             </objects>
@@ -146,6 +156,7 @@
                                 <date key="date" timeIntervalSinceReferenceDate="529457322.64213198">
                                     <!--2017-10-11 23:28:42 +0000-->
                                 </date>
+                                <locale key="locale" localeIdentifier="en_CA"/>
                             </datePicker>
                             <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="o66-8f-e1J">
                                 <rect key="frame" x="164" y="318" width="46" height="30"/>
